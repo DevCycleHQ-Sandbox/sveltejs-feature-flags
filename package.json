@@ -4,6 +4,7 @@
   "devDependencies": {
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.1",
+    "dotenv-webpack": "^8.1.0",
     "mini-css-extract-plugin": "^2.6.0",
     "svelte": "^4.0.0",
     "svelte-loader": "^3.1.9",
@@ -14,5 +15,9 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "dev": "webpack serve"
+  },
+  "dependencies": {
+    "@openfeature/web-sdk": "^1.0.3",
+    "airtable": "^0.12.2"
   }
 }
